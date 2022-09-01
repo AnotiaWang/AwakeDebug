@@ -25,7 +25,7 @@ class ToggleViewModel(
     private val settingsLiveData = MutableLiveData(SettingsUiState())
 
     val uiStateLiveData = MediatorLiveData<SettingsUiState>().apply {
-        addSource(settingsLiveData) { emit () }
+        addSource(settingsLiveData) { emit() }
         addSource(toggleController.visibleDebugNotifications) { emit() }
         addSource(systemSettings.screenTimeoutLiveData) { emit() }
     }
@@ -42,7 +42,8 @@ class ToggleViewModel(
     }
 
     init {
-        val settingsUiState = SettingsUiState(prefs.awakeDebug, prefs.usbDebugging, prefs.wifiDebugging)
+        val settingsUiState =
+            SettingsUiState(prefs.awakeDebug, prefs.usbDebugging, prefs.wifiDebugging)
         settingsLiveData.value = settingsUiState
     }
 

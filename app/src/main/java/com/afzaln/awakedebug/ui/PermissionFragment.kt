@@ -9,7 +9,6 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import com.afzaln.awakedebug.Injector
-import com.afzaln.awakedebug.databinding.AboutFragmentBinding
 import com.afzaln.awakedebug.databinding.PermissionFragmentBinding
 
 /**

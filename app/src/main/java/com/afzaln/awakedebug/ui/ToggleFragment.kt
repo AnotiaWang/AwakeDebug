@@ -12,16 +12,13 @@ import androidx.lifecycle.lifecycleScope
 import com.afzaln.awakedebug.DebuggingType
 import com.afzaln.awakedebug.Injector
 import com.afzaln.awakedebug.R
-import com.afzaln.awakedebug.databinding.AboutFragmentBinding
 import com.afzaln.awakedebug.databinding.ToggleFragmentBinding
 import com.google.android.material.button.MaterialButtonToggleGroup
 import kotlinx.coroutines.launch
 import timber.log.Timber
-import java.time.Period
 import kotlin.time.ExperimentalTime
 import kotlin.time.milliseconds
 import kotlin.time.minutes
-import kotlin.time.seconds
 
 /**
  * View responsible for allowing the user
