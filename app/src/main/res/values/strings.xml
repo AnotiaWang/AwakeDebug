@@ -9,41 +9,43 @@
     <string name="awake_debug_toggle_short">Debug Awake</string>
 
     <!-- Permission screen   -->
-    <string name="permission_needed">Permissions required!</string>
-    <string name="permissons_rationale">This app requires two permissions to function correctly.</string>
-    <string name="permissons_notification_access_title"><b>Notification Access</b></string>
-    <string name="permissons_modify_settings_title"><b>Modify system settings</b></string>
-    <string name="permissons_notification_access_message">Notification access is only used to detect if a notification is a Wireless or USB debugging notification.</string>
-    <string name="permissons_modify_settings_message">Modifying system settings allows the app to modify the display timeout setting while Wireless or USB debugging is active.</string>
+    <string name="permission_needed">需要授予权限</string>
+    <string name="permissions_rationale">此 App 需要两个权限以正常运行。</string>
+    <string name="permissions_notification_access_title"><b>通知权限</b></string>
+    <string name="permissions_modify_settings_title"><b>修改系统设置</b></string>
+    <string name="permissions_notification_access_message">此权限仅用于检测状态栏中的调试通知属于有线还是无线调试。</string>
+    <string name="permissions_modify_settings_message">允许应用在调试模式时修改系统的息屏时间。</string>
     <string name="verifiable_builds_note"><b>Note:</b> This app uses verifiable builds. The APKs published in the Play Store can be compared with the APK produced by building the openly available source code on GitHub.</string>
-    <string name="allow_notification_access">Allow Notification Access</string>
-    <string name="allow_modify_settings">Allow Modifying System Settings</string>
-    <string name="notification_access_granted">Notification access granted</string>
-    <string name="modify_settings_granted">Modify system settings permission granted</string>
-    <string name="next">Continue</string>
+    <string name="allow_notification_access">授予通知权限</string>
+    <string name="allow_modify_settings">授予修改系统设置权限</string>
+    <string name="notification_access_granted">已授予通知权限</string>
+    <string name="modify_settings_granted">已授予修改系统设置权限</string>
+    <string name="next">继续</string>
 
     <!-- Toggle screen   -->
-    <string name="stay_awake_while_debugging">Stay awake while debugging</string>
-    <string name="type_of_debugging">Type of debugging</string>
+    <string name="stay_awake_while_debugging">在调试时保持亮屏</string>
+    <string name="type_of_debugging">调试类型</string>
     <string name="first_and_second">%1$s &amp; %2$s</string>
-    <string name="usb">USB</string>
-    <string name="wireless">Wireless</string>
-    <string name="intro_1">This app allows you to keep your screen awake only when Wireless or USB debugging is active.</string>
-    <string name="intro_2">It switches to the previously set display timeout when debugging is not active.</string>
-    <string name="debugging_status">Debugging status</string>
-    <string name="not_active">Not active</string>
-    <string name="display_timeout">Display timeout</string>
-    <string name="unknown">Unknown</string>
+    <string name="usb">有线</string>
+    <string name="wireless">无线</string>
+    <string name="intro_1">此 App 可在您调试应用时，让手机保持亮屏。</string>
+    <string name="intro_2">在退出调试模式后，它会将息屏时间恢复为原本的设置。</string>
+    <string name="debugging_status">调试模式状态</string>
+    <string name="not_active">未启用</string>
+    <string name="display_timeout">自动息屏时间</string>
+    <string name="unknown">未知</string>
+    <string name="toast_settings_modified">已修改息屏时间</string>
+    <string name="toast_settings_fallback">已恢复息屏时间</string>
 
     <!-- About screen   -->
     <string name="back_navigation_description">back navigation</string>
-    <string name="about">About</string>
-    <string name="version">Version</string>
+    <string name="about">关于</string>
+    <string name="version">版本</string>
     <string name="licenses">Open Source Licenses</string>
     <string name="author_header">Author</string>
     <string name="fork_on_github">Fork on GitHub</string>
     <string name="visit_my_website">Visit my website</string>
-    <string name="author_username">by &#64;AfzalivE</string>
+    <string name="author_username">Developed by &#64;AfzalivE, modified by 王煜坤</string>
     <string name="github_repo_url">https://github.com/AfzalivE/AwakeDebug</string>
     <string name="website_url">https://afzaln.com</string>
 
